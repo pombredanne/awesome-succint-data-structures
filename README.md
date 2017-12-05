@@ -8,14 +8,15 @@ A curated awesome list of succint data structures, algorithms and articles for e
 
 ## Compressed string Indexes
 
-- FM0Index https://en.wikipedia.org/wiki/FM-index
+- FM-Index https://en.wikipedia.org/wiki/FM-index
   - Shellinford https://pypi.python.org/pypi/shellinford and https://code.google.com/archive/p/shellinford/ and https://bitbucket.org/oov/go-shellinford
   - Oktavia https://github.com/shibukawa/oktavia.py and https://github.com/shibukawa/oktavia
 
 ## Finite state machines, automata and transducers
 
-- http://openfst.org/ Transducers C++ and Python
-- http://blog.burntsushi.net/transducers/ Index 1,600,000,000 Keys with Automata and Rust
+- FSTs (note that while not strictly succint, transducers are densely compressed and are often used in the same context as succint data structures)
+  - http://openfst.org/ Transducers C++ and Python
+  - http://blog.burntsushi.net/transducers/ Index 1,600,000,000 Keys with Automata and Rust
 
 ## General purpose libraries
 
